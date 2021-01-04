@@ -16,5 +16,10 @@ class Config(object):
     INDEX_LINK = "https://www.emvsplex.ga/0:"
     LEECH_COMMAND = "leech"
     OWNER_ID = 999162609
+    PROCESS_MAX_TIMEOUT = 3600
+    MAX_MESSAGE_LENGTH = 4096
+    MAX_FILE_SIZE = 50000000
+    TG_MAX_FILE_SIZE = 2097152000
+    FREE_USER_MAX_FILE_SIZE = 50000000
     RCLONE_CONFIG = """type = drive\nclient_id = 689614248022-f8jm4n8os876g0fe3k66hu4vn2hjnmm6.apps.googleusercontent.com\nclient_secret = OCz4MamcnnHh70oanlxxMoeK\nscope = drive\ntoken = {"access_token":"ya29.a0AfH6SMCs-sXEWJS9isl61E_eYmpNxAR7l2w2JXb91HhHwjKdbXyG8ajmHEpDwjTrlopRySglAmyqJxgm6DBBom1KAphXFV0Z32b_Kt1K9dJJMWZa9Kn07ksbzT4PJqga2qMSBOIJli2kiCX_Gt2NUGlWl-fauqh15kOxbmNxmmk","token_type":"Bearer","refresh_token":"1//0g1wyhUv0ZH3CCgYIARAAGBASNwF-L9Irpe0OOfycW5ELFb2PO_Bp2ln9SE2voqWQHwDyTXBxRsj1m--tQS6KNMOgZXx-uAUSjyk","expiry":"2020-12-23T10:13:03.7093259+05:30"}\nteam_drive = 0AL2f4TZ1lf0IUk9PVA"""
     #put your config(replacing new lines with \n) in triple quote like above: """<your one liner config>"""
