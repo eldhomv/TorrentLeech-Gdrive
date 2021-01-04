@@ -12,6 +12,7 @@ class Config(object):
     CLONE_COMMAND_G = "gclone"
     PYTDL_COMMAND_G = "pytdl"
     DESTINATION_FOLDER = "my drive"
+    DESTINATION_FOLDER = "my drive"
     INDEX_LINK = "https://www.emvsplex.ga/0:"
     LEECH_COMMAND = "leech"
     OWNER_ID = 999162609
