@@ -1,7 +1,6 @@
-import os
-from pathlib import Path
+from tobrot.sample_config import Config
 
-class Config(object):
+class Config(Config):
     TG_BOT_TOKEN= "1301781981:AAGb2NngTvx_sd76flP9RDs4x1KnS9MfSj8" #imp
     APP_ID = 1711488 #imp
     API_HASH = "707667e743148abde192655aa64d21f6" #imp
