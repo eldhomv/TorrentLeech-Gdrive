@@ -17,7 +17,6 @@ class Config(Config):
     CANCEL_COMMAND_G = "cancel@drivoidbot"
     LOG_COMMAND = "log@drivoidbot"
     STATUS_COMMAND = "status@drivoidbot"
-    CLONE_COMMAND_G = "gclone@drivoidbot"
     UPLOAD_COMMAND = "upload@drivoidbot"
     RENEWME_COMMAND = "renewme@drivoidbot"
     OWNER_ID = 999162609
