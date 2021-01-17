@@ -13,12 +13,13 @@ class Config(Config):
     DESTINATION_FOLDER = "my drive"
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     INDEX_LINK = "https://www.emvsplex.ga/0:"
-    LEECH_COMMAND = "leech"
+    LEECH_COMMAND = "leech@drivoidbot"
     CANCEL_COMMAND_G = "cancel@drivoidbot"
     LOG_COMMAND = "log@drivoidbot"
     STATUS_COMMAND = "status@drivoidbot"
     UPLOAD_COMMAND = "upload@drivoidbot"
     RENEWME_COMMAND = "renewme@drivoidbot"
+    GET_SIZE_G = "getsize@drivoidbot"
     OWNER_ID = 999162609
     PROCESS_MAX_TIMEOUT = 3600
     MAX_MESSAGE_LENGTH = 4096
